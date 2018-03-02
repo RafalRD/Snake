@@ -63,6 +63,7 @@ public class Snake implements ActionListener, KeyListener
 	}
 	private void startGame()
 	{
+		tailLength = 0;
 		over = false;
 		direction = DOWN;
 		head = new Point(0,0);
